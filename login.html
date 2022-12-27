@@ -1,0 +1,162 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+
+    <link rel="stylesheet" href="./bootstrap-5.3.0-alpha1/dist/css/bootstrap.min.css">
+    <link rel="stylesheet" href="./style/normalize.css">
+
+    <link rel="stylesheet" href="./style/style.css">
+    <link rel="stylesheet" href="./style/nav.css">
+    <link rel="stylesheet" href="./style/footer.css">
+    <link rel="stylesheet" href="./style/adaptation.css">
+    <link rel="stylesheet" href="./style/login.css">
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=League+Spartan:wght@400;700&family=Mulish:wght@200;300;400;500;600;700;800;900;1000&family=Roboto:wght@500;900&display=swap" rel="stylesheet">
+    <script src="./bootstrap-5.3.0-alpha1/dist/js/bootstrap.js" defer></script>
+
+
+</head>
+<body>
+
+    <main>
+
+
+        <nav class="navbar navbar-expand-lg bg-light d-flex d-lg-none w-100 mb-4">
+            <div class="container-fluid">
+                <a class="navbar-brand" href="#">
+                    <div class="logo1">
+                        <div class="logo2"></div>
+                    </div>
+                </a>
+                <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Переключатель навигации">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+                <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
+                    <div class="navbar-nav">
+
+                        <div class="header_text header_text_active mt-5">Home</div>
+                        <div class="header_text">Destinations</div>
+                        <div class="header_text">About</div>
+                        <div class="header_text">Partner</div>
+
+
+                        <div class="d-flex justify-content-between my-4">
+                            <button class="login">Login</button>
+                            <button class="register">Register</button>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </nav>
+        <header class="header d-none d-lg-flex">
+            <!-- лого -->
+            <div class="logo1 ">
+                <div class="logo2"></div>
+            </div>
+            <!-- правый блок -->
+            <div class="header_right">
+                <div class="navmenu">
+                    <div class="header_text header_text_active">Home</div>
+                    <div class="header_text">Destinations</div>
+                    <div class="header_text">About</div>
+                    <div class="header_text">Partner</div>
+                </div>
+
+
+                <div>
+                    <button class="login">Login</button>
+                </div>
+                <div>
+                    <button class="register">Register</button>
+                </div>
+            </div>
+        </header>
+        <!-- =============================== -->
+
+        <div class="container_login">
+            <div class="block_login">
+                <div class="form-floating mb-3">
+                    <input type="email" class="form-control" id="floatingInput" placeholder="name@example.com">
+                    <label for="floatingInput">Адрес электронной почты</label>
+                </div>
+                <div class="form-floating">
+                    <input type="password" class="form-control" id="floatingPassword" placeholder="Пароль">
+                    <label for="floatingPassword">Пароль</label>
+                </div>
+            </div>
+        </div>
+
+        <!-- =============================== -->
+    </main>
+    <footer class="footer_block">
+
+        <div class="footer_contant flex-wrap d-lg-flex">
+            <div class="footer_text w-100 w-lg-50">
+                <div class="logo1">
+                    <div class="logo2"></div>
+                </div>
+                <div class="footer_text">
+                    Plan and book your perfect trip with <br />expert advice, travel tips destination <br />information from us
+                </div>
+                <div class="footer_text footer_copiright">
+                    ©2020 Thousand Sunny. All rights reserved
+                </div>
+            </div>
+            <div class="d-flex  justify-content-between w-100">
+                <div class="column1">
+                    <div class="footer_title">Destinations</div>
+                    <li class="footer_text">Africa</li>
+                    <li class="footer_text">Antarctica</li>
+                    <li class="footer_text">Asia</li>
+                    <li class="footer_text">Europe</li>
+                    <li class="footer_text">America</li>
+                </div>
+                <div class="column2">
+                    <div class="footer_title">Shop</div>
+                    <li class="footer_text">Destination Guides</li>
+                    <li class="footer_text">Pictorial & Gifts</li>
+                    <li class="footer_text">Special Offers</li>
+                    <li class="footer_text">Delivery Times</li>
+                    <li class="footer_text">FAQs</li>
+                </div>
+                <div class="column3">
+                    <div class="footer_title">Interests</div>
+                    <li class="footer_text">Adventure Travel</li>
+                    <li class="footer_text">Art And Culture</li>
+                    <li class="footer_text">Wildlife And Nature</li>
+                    <li class="footer_text">Family Holidays</li>
+                    <li class="footer_text">Food And Drink</li>
+                </div>
+            </div>
+        </div>
+
+        <div class="line2"></div>
+
+        <div class="footerimages d-flex w-100 justify-content-center">
+            <div class="twitter mx-4">
+                <img class="twtimg" src="./images/twitter.png" alt="" />
+            </div>
+            <div class="facebook mx-4">
+                <img clas="fcbimg" src="./images/facebook.png" alt="" />
+            </div>
+            <div class="instagram mx-4">
+                <img class="instimg" src="./images/inst.png" alt="" />
+            </div>
+            <div class="In mx-4">
+                <img class="inimg" src="./images/in.png" alt="" />
+            </div>
+            <div class="youtube mx-4">
+                <img class="ytbimg" src="./images/youtube.png" alt="" />
+            </div>
+        </div>
+    </footer>
+
+
+</body>
+</html>

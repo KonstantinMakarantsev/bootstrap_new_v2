@@ -1,0 +1,199 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+
+    <link rel="stylesheet" href="./bootstrap-5.3.0-alpha1/dist/css/bootstrap.min.css">
+    <link rel="stylesheet" href="./style/normalize.css">
+
+    <link rel="stylesheet" href="./style/style.css">
+    <link rel="stylesheet" href="./style/nav.css">
+    <link rel="stylesheet" href="./style/footer.css">
+    <link rel="stylesheet" href="./style/adaptation.css">
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=League+Spartan:wght@400;700&family=Mulish:wght@200;300;400;500;600;700;800;900;1000&family=Roboto:wght@500;900&display=swap" rel="stylesheet">
+    <script src="./bootstrap-5.3.0-alpha1/dist/js/bootstrap.js" defer></script>
+</head>
+<body>
+
+    <main>
+
+
+        <nav class="navbar navbar-expand-lg bg-light d-flex d-lg-none w-100 mb-4">
+            <div class="container-fluid">
+                <a class="navbar-brand" href="#">
+                    <div class="logo1">
+                        <div class="logo2"></div>
+                    </div>
+                </a>
+                <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Переключатель навигации">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+                <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
+                    <div class="navbar-nav">
+
+                        <div class="header_text header_text_active mt-5">Home</div>
+                        <div class="header_text">Destinations</div>
+                        <div class="header_text">About</div>
+                        <div class="header_text">Partner</div>
+
+
+                        <div class="d-flex justify-content-between my-4">
+                            <button class="login">Login</button>
+                            <button class="register">Register</button>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </nav>
+        <header class="header d-none d-lg-flex">
+            <!-- лого -->
+            <div class="logo1 ">
+                <div class="logo2"></div>
+            </div>
+            <!-- правый блок -->
+            <div class="header_right">
+                <div class="navmenu">
+                    <div class="header_text header_text_active">Home</div>
+                    <div class="header_text">Destinations</div>
+                    <div class="header_text">About</div>
+                    <div class="header_text">Partner</div>
+                </div>
+
+
+                <div>
+                    <a href="./login.html">
+                        <button class="login">Login</button>
+                    </a>
+                </div>
+                <div>
+                    <button class="register">Register</button>
+                </div>
+            </div>
+        </header>
+
+        <div class="containerOne d-flex justify-content-between">
+            <div class="block_left d-flex  justify-content-around">
+                <div class="load d-flex align-items-center d-none d-lg-flex">
+                    <img src="./images/load.png" alt="">
+                </div>
+
+                <div>
+                    <div class="containerOne_blovk_left">
+                        <div class="text1">
+                            Explore and<br />
+                            Travel
+                        </div>
+                        <div class="text2">Holiday finder</div>
+                        <div class="hesder_line"></div>
+                    </div>
+                    <div class="block_right">
+
+                        <div class="block_wrap_1 d-flex">
+                            <div class="form-floating mb-4 me-4">
+                                <input type="email" class="form-control" id="floatingInput" placeholder="Location">
+                                <label for="floatingInput">Location</label>
+                            </div>
+                            <div class="form-floating mb-3">
+                                <input type="email" class="form-control" id="floatingInput" placeholder="Grade">
+                                <label for="floatingInput">Grade</label>
+                            </div>
+                        </div>
+                        <div class="block_wrap_2 d-flex">
+                            <div class="form-floating mb-4 me-4">
+                                <input type="email" class="form-control" id="floatingInput" placeholder="Activity">
+                                <label for="floatingInput">Activity</label>
+                            </div>
+                            <div class="form-floating mb-3">
+                                <input type="date" class="form-control" id="floatingInput" placeholder="Date">
+                                <label for="floatingInput">Date</label>
+                            </div>
+                        </div>
+                        <div class="Explore">Explore</div>
+                    </div>
+                </div>
+
+            </div>
+            <div class="block_right_img">
+                <img class="block_right_img" src="./images/header.png" alt="">
+            </div>
+        </div>
+        <div class="load_sctran d-flex justify-content-center p-5">
+            <img src="./images/load.png" alt="">
+        </div>
+
+
+
+
+    </main>
+    <footer class="footer_block">
+
+        <div class="footer_contant flex-wrap d-lg-flex">
+            <div class="footer_text w-100 w-lg-50">
+                <div class="logo1">
+                    <div class="logo2"></div>
+                </div>
+                <div class="footer_text">
+                    Plan and book your perfect trip with <br />expert advice, travel tips destination <br />information from us
+                </div>
+                <div class="footer_text footer_copiright">
+                    ©2020 Thousand Sunny. All rights reserved
+                </div>
+            </div>
+            <div class="d-flex  justify-content-between w-100">
+                <div class="column1">
+                    <div class="footer_title">Destinations</div>
+                    <li class="footer_text">Africa</li>
+                    <li class="footer_text">Antarctica</li>
+                    <li class="footer_text">Asia</li>
+                    <li class="footer_text">Europe</li>
+                    <li class="footer_text">America</li>
+                </div>
+                <div class="column2">
+                    <div class="footer_title">Shop</div>
+                    <li class="footer_text">Destination Guides</li>
+                    <li class="footer_text">Pictorial & Gifts</li>
+                    <li class="footer_text">Special Offers</li>
+                    <li class="footer_text">Delivery Times</li>
+                    <li class="footer_text">FAQs</li>
+                </div>
+                <div class="column3">
+                    <div class="footer_title">Interests</div>
+                    <li class="footer_text">Adventure Travel</li>
+                    <li class="footer_text">Art And Culture</li>
+                    <li class="footer_text">Wildlife And Nature</li>
+                    <li class="footer_text">Family Holidays</li>
+                    <li class="footer_text">Food And Drink</li>
+                </div>
+            </div>
+        </div>
+
+        <div class="line2"></div>
+
+        <div class="footerimages d-flex w-100 justify-content-center">
+            <div class="twitter mx-4">
+                <img class="twtimg" src="./images/twitter.png" alt="" />
+            </div>
+            <div class="facebook mx-4">
+                <img clas="fcbimg" src="./images/facebook.png" alt="" />
+            </div>
+            <div class="instagram mx-4">
+                <img class="instimg" src="./images/inst.png" alt="" />
+            </div>
+            <div class="In mx-4">
+                <img class="inimg" src="./images/in.png" alt="" />
+            </div>
+            <div class="youtube mx-4">
+                <img class="ytbimg" src="./images/youtube.png" alt="" />
+            </div>
+        </div>
+    </footer>
+
+
+</body>
+</html>
